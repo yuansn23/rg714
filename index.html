@@ -10,6 +10,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>2025年智能株式洞察分析</title>
     <style>
+	  .video-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* 使视频容器充满视口高度 */
+        }
+        video {
+            width: 100%; /* 将视频宽度设置为100% */
+            height: auto; /* 高度自适应 */
+            max-width: 560px; /* 设置最大宽度 */
+        }
+		
         * {
             margin: 0;
             padding: 0;
@@ -448,13 +460,12 @@
                 <img src="img/2.jpg" alt="システム" class="profile-image">
             </div>
 
-            <div class="video-container">
-                <iframe 
-                    src="https://www.youtube.com/embed/MoKzn-ld2YY" 
-                    class="video-embed"
-                    allowfullscreen>
-                </iframe>
-            </div>
+           <div class="video-container">
+        <video controls autoplay muted>
+            <source src="img/9.mp4" type="video/mp4">
+            您的浏览器不支持视频标签。
+        </video>
+    </div>
 
             <div class="input-section">
                 <label class="input-label">会社名またはコードを入力してください</label>
